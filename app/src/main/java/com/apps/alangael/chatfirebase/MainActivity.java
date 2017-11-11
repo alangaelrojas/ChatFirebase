@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
         database = FirebaseDatabase.getInstance();
         databaseReference = database.getReference("chat");//sala de chat(nombre)
+
         storage = FirebaseStorage.getInstance();
         storageReference = storage.getReference();
 

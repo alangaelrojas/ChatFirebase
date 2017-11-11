@@ -16,7 +16,6 @@ public class Mensaje {
 
     public Mensaje(String mensaje, String nombre, String fotoperfil, String type_mensaje) {
         this.mensaje = mensaje;
-
         this.nombre = nombre;
         this.fotoperfil = fotoperfil;
         this.type_mensaje = type_mensaje;
