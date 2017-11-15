@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemRangeInserted(int positionStart, int itemCount) {
                 super.onItemRangeInserted(positionStart, itemCount);
-                setScrolbar();
+                setScrollbar();
             }
         });*/
         fotoperfil.setOnClickListener(new View.OnClickListener() {
@@ -132,10 +132,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    /*public void setScrolbar(){
+    /*public void setScrollbar(){
         rvmensajes.scrollToPosition(adapter.getItemCount()-1);
     }*/
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         super.onActivityResult(requestCode, resultCode, data);
